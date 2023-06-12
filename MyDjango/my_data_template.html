@@ -1,0 +1,6 @@
+{% for item in data %}
+  <p>{{ item.name }}</p>
+  <!-- Додайте виведення інших полів моделі за потреби -->
+{% empty %}
+  <p>No data available</p>
+{% endfor %}
